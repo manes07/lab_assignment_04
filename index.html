@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h2 align="center">Complex Registration Form</h2>
+<div>
+    <table border="black">
+        <tr>
+            <td colspan="4" >
+            <h3 style="text-align: center;"> Personal Details</h3>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <form action="">
+                    <label for="firstname">First name*</label> </td>
+                    <td><input type="text" id="firstname" name="firstname" required> 
+                   </form>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <label for="lastname">Last name*</label></td>
+                <td>
+        <input type="text" name="lastname" id="lastname" required>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <label for="email">Email*</label>
+             </td>
+             <td>
+                <input type="email" name="email" id="email" required>
+             </td>
+        </tr>
+
+        <tr>
+            <td>
+                <label for="phonenumber">Phone Number*</label>
+            </td>
+            <td>
+                <input type="text" name="phonenumber" id="phonenumber" required>
+            </td>
+        </tr>
+        
+        <tr>
+            <td colspan="4" >
+            <h3 style="text-align: center;"> Account Details</h3>
+            </td>
+        </tr>
+        
+        <tr>
+            <td>
+                <label for="username">Username*</label>
+            </td>
+            <td>
+                <input type="text" name="username" id="username" required>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <label for="password">Password*</label>
+            </td>
+            <td>
+                <input type="password" name="password" id="password">
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <label for="confirm">Confirm Password*</label>
+            </td>
+            <td>
+                <input type="password" name="confirm" id="confirm">
+            </td>
+        </tr>
+
+        <tr>
+            <td colspan="4">
+                <h3 style="text-align: center;">Address</h3>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <label for="address1">Address Line 1*</label>
+            </td>
+            <td>
+                <input type="text" name="address1" id="address1">
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <label for="address2">Address Line 2</label>
+            </td>
+            <td>
+                <input type="text" name="address2" id="address2">
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <label for="city">City*</label>
+            </td>
+            <td>
+                <input type="text" name="city" id="city">
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <label for="state">State*</label>
+            </td>
+            <td>
+                <select name="state" id="state">
+                    <option value="assam">Assam</option>
+                    <option value="bihar">Bihar</option>
+                    <option value="chattisgarh">Chattisgarh</option>
+                    <option value="himancahl">Himanchal Pradesh</option>
+                    <option value="jharkhand">Jharkhand</option>
+                    <option value="madhya">Madhya Pradesh</option>
+                    <option value="maharashtra">Maharashtra</option>
+                    <option value="tg">Telengana</option>
+                    <option value="uttarakhand">Uttarakhand</option>
+                    <option value="up">Uttar Pradesh</option>
+                    <option value="wb">West Bengal</option>
+                </select>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <label for="zipcode">Zip Code</label>
+            </td>
+            <td>
+                <input type="text" name="zipcode" id="zipcode">
+            </td>
+        </tr>
+
+        <tr >
+           <td colspan="4">
+            <h3 style="text-align: center;">Preference</h3>
+           </td>
+        </tr>
+        
+        <tr>
+            <td>
+                <label for="gender">Gender</label>
+            </td>
+            <td>
+                <label for="male">Male</label>
+                <input type="radio" name="gender" id="male">
+                <label for="female">Female</label>
+                <input type="radio" name="gender" id="female">
+                <label for="others">Others</label>
+                <input type="radio" name="gender" id="others">
+            </td>
+        </tr>
+
+        <tr>
+            <td><label for="subscribe">Subscribe Newsletter</label></td>
+            <td><input type="checkbox" value="subscribe"></td>
+        </tr>
+
+        <tr>
+            <td><h3>Short bio</h3></td>
+            <td><textarea name="short" id="short" cols="30" rows="05">Tell us about yourself...</textarea></td>
+        </tr>
+
+        <tr>
+            <td colspan="4" align="center"> <input type="checkbox" name="agree" id="agree">
+                <label for="agree">I agree with terms and conditons</label></td>
+        </tr>
+        
+        <tr>
+            <td colspan="4" align="center"> 
+                <input type="button" value="Register" >
+            <input type="button" value="Reset"></td>
+        </tr>
+        
+
+    </table> </div> <br><br>
+
+    <div><h2>Terms and Conditions</h2></div>
+
+
+    <iframe src="terms.html" frameborder="10px" height="200" width="350"></iframe>
+    
+</body>
+</html>
